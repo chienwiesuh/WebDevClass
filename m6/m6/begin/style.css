@@ -1,0 +1,15 @@
+body{
+    background-color: lightblue;
+}
+section{
+    background-color: lightgreen;
+}
+#testimonials{
+    background-color: magenta;
+}
+p{
+    background-color:yellow;
+}
+.paragraph1{
+    background-color: orangered;
+}
