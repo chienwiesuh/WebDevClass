@@ -13,3 +13,8 @@ p{
 .paragraph1{
     background-color: orangered;
 }
+ul
+{
+    background-color: rgb(45, 127, 160);
+    list-style: none;
+}
