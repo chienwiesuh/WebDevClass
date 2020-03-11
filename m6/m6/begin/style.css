@@ -1,17 +1,39 @@
 body{
     background-color: lightblue;
+    /*
+    border-left: 65px double chocolate; 
+    border-right: 65px double chocolate;
+    */
+    border: double 50px chocolate;
+    
+    margin: 0px; 
+    padding: 10px;
 }
+/*
 section{
     background-color: lightgreen;
 }
+*/
 #testimonials{
     background-color: magenta;
 }
 p{
-    background-color:yellow;
+ text-align: left;
+ 
 }
 .paragraph1{
     background-color: orangered;
+}
+h1,h2{
+    text-transform: capitalize;
+    background-color: mediumvioletred;
+    display: inline-block;
+    border-left: 15px solid chocolate;
+    border-right: 15px solid chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+
 }
 ul
 {
@@ -25,8 +47,8 @@ ul li
     background-color: rgb(45, 127, 160);
     border-bottom-color:black;
     border-bottom-style: solid;
-    border-left: 15px solid chocolate;
-    border-right: 15px solid chocolate;
+    border-left: 15px  chocolate;
+    border-right: 15px  chocolate;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 30px;
@@ -34,3 +56,11 @@ ul li
     padding: 10px;
 
 }
+img 
+ 
+{
+    border-radius: 100px; 
+    border: dotted 5px rgb(224, 22, 130);
+
+}
+ 
