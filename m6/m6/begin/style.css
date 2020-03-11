@@ -15,6 +15,22 @@ p{
 }
 ul
 {
-    background-color: rgb(45, 127, 160);
     list-style: none;
+    
+}
+ul li
+{
+    display: inline-block;
+    width: 150px;
+    background-color: rgb(45, 127, 160);
+    border-bottom-color:black;
+    border-bottom-style: solid;
+    border-left: 15px solid chocolate;
+    border-right: 15px solid chocolate;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 0px;
+    padding: 10px;
+
 }
