@@ -14,6 +14,11 @@ section{
     background-color: lightgreen;
 }
 */
+@media(min-width:300px){
+
+
+    
+}
 #testimonials{
     background-color: magenta;
 }
