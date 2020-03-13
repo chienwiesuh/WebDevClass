@@ -69,4 +69,11 @@ img
     right: 0px;
     bottom: 0px;
 }
- 
+ address{
+     float: right;
+     position: relative;
+     top: 300px;
+     margin-right: 50px;
+     border: 3px dotted blue;
+     padding: 10px 20px 10px 5px;
+ }
