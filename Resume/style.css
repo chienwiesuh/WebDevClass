@@ -63,11 +63,14 @@ ul li
     border: dotted 5px rgb(224, 22, 130);
 
 }
-}
+
 #Top{
     position: fixed;
-    right: 0%;
-    border: 0px;
+    right: 0;
+    bottom: 0%;
+    width: 5em;
+    margin-top: -2.5em;
+    padding-right: 38px;
 
 }
  #Address{
