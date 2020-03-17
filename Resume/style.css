@@ -24,7 +24,7 @@ p{
 .paragraph1{
     background-color: orangered;
 }
-h1,h2{
+h2{
     text-transform: capitalize;
     background-color: mediumvioletred;
     display: inline-block;
@@ -40,6 +40,7 @@ ul
     list-style: none;
     
 }
+
 ul li
 {
     display: inline-block;
@@ -56,6 +57,7 @@ ul li
     padding: 10px;
 
 }
+
 #image
  
 {
