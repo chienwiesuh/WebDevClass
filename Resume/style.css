@@ -24,15 +24,23 @@ p{
 .paragraph1{
     background-color: orangered;
 }
+/*
+h1,h2,p{
+    text-align: center; color: black;
+}
+
 h2{
-    text-transform: capitalize;
+
     background-color: mediumvioletred;
+    
+    
     display: inline-block;
     border-left: 15px solid chocolate;
     border-right: 15px solid chocolate;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     
+  */  
 
 }
 ul
@@ -45,7 +53,7 @@ ul li
 {
     display: inline-block;
     width: 150px;
-    background-color: rgb(45, 127, 160);
+    background-color: rgb(177, 193, 199);
     border-bottom-color:black;
     border-bottom-style: solid;
     border-left: 15px  chocolate;
@@ -60,10 +68,14 @@ ul li
 
 #image
  
-{
+{  
     border-radius: 100px; 
     border: dotted 5px rgb(224, 22, 130);
 
+}
+.table{
+    font-family: fantasy;
+     background-color: rgb(21, 170, 230);
 }
 
 #Top{
@@ -79,8 +91,23 @@ ul li
      float: right;
      position: relative;
      top: -300px;
-     margin-right: 50px;
+     margin-right: 0px;
      border: 3px solid blue;
      padding: 10px 20px 10px 10px;
+ }
+ /*
+ #nav{
+    display: inline;
+    width: 150px;
+    background-color:greenyellow;
+    border-bottom-color:black;
+    border-bottom-style: solid;
+    border-left: 15px  chocolate;
+    border-right: 15px  chocolate;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 0px;
+    padding: 10px;
  }
  
