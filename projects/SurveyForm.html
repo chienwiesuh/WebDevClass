@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+ <html lang="en-us">
+     <head>
+         <title>My Survey Form</title>
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     </head>
+     <body>
+         <div class="container">
+             <header class="header">
+        <h1 id="title">CamFoot.FC Survey Form</h1>
+          <p id="description">
+              We are open to new members. Thanks.         
+         </p>
+         </header>
+            <form id="survey-form">
+                <div class="form-group">
+              <label id="name-lebel" for="Name"> Name</label>
+              <input type="text" id="name" name="name" class="form-contyrol" placeholder="Enter Your Name" required>
+               
+            </div>
+
+            <div class="form-group">
+             <label id="email-lable" for="Email">Email</label>
+              <input type="email" id="Email" name="Email" class="form-contyrol"  placeholder="Enter Your Email" required> 
+              
+            </div>
+
+           <div class="form-group">
+             <label id="number-lable" for="Number">Age</label>
+              <input type="number" id="Number" name="Age" min="10"  max="80" class="form-control" placeholder="Age"  >
+              <br /> <br />
+            </div>
+              <div class="form-group">
+                  <p>Which option best describes your best playing position?</p>
+                 <select id="dropdown" name="position" class="form-control" required>
+                     <option disabled selected value>Select best position</option>
+                     <option value="striker">Striker</option>
+                     <option value="midfielder">Holding-Mid</option>
+                     <option value="midfielder">Box-Box-Mid</option>
+                     <option value="defender">Cen-Back</option>
+                 </select>
+              </div>
+              <div class="form-group">
+                  <p> Would you recommend CamFoot to a friend?</p>
+                  <label>
+                      <input name="user-recommend" value="definitelt" type="radio" class="input-radio" checked> "Definitely"
+                  </label> <br />
+                  <label>
+                    <input name="user-recommend" value="maybe" type="radio" class="input-radio" checked> "Maybe"
+                </label><br />
+                <label>
+                    <input name="user-recommend" value="not-sure" type="radio" class="input-radio" checked> "Not Sure"
+                </label>
+              </div>
+             
+            
+              <input type="submit" value="Submit">
+            </form>
+
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" > </script>  
+        
+        
+        </div>
+ 
+     </body>
+
+ </html>
