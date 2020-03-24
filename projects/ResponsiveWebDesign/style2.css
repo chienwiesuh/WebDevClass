@@ -28,6 +28,9 @@ h1 {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+  input{
+    width: 300px;
+  }
   
   div {
     border-radius: 5px;
