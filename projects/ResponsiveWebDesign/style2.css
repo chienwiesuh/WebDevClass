@@ -83,7 +83,17 @@ li a:hover {
   padding: 20px 0;
   font-size: 30px;
 }
+@media{
 
+}
+#navbar{
+  position: fixed;
+  top: 0px;
+  
+}
+#welcome-section{
+  height: 100vh;
+}
  
 
 
