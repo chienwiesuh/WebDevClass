@@ -122,4 +122,15 @@ ul li
     margin-left: 0px;
     padding: 10px;
  }
+ */
  
+ @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  .responsive-img{
+}
+img{
+    width: 600px;
+}

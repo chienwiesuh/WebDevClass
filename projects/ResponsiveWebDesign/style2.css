@@ -5,12 +5,12 @@ h1 {
     Padding: 50px 0px 5px 0px;
   }
   body{
-      background-color: chocolate;
+      background-color: rgb(194, 189, 185);
     width: 100%;
     padding: 5px 50px 30px 50px;
-    margin: 20px1 0;
+    margin: 10px 0px 10px 0px;
     display: inline-block;
-    border: 30px solid rgb(134, 127, 127);
+    border: 5px solid rgb(134, 127, 127);
     border-radius: 40px;
     box-sizing: border-box;
   }
@@ -40,9 +40,51 @@ h1 {
 #AllForms{
     width: 100%;
 }
+#responsive-img{
+
+}
+img{
+  width: 200px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
 
 
+li {
+  float: right;
+}
 
+li a {
+  display: block;
+  color:cyan;
+  text-align: center;
+  padding: 26px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+ 
 
 
 
