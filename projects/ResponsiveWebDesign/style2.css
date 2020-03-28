@@ -87,6 +87,11 @@ li a:hover {
   body {
     background-color: lightgreen;
   }
+  @media (min-width: 600px) {
+    header {
+      height: 100vh;
+    }
+  }
 }
 #navbar{
   position: fixed;
@@ -97,6 +102,8 @@ li a:hover {
   height: 100vh;
 }
 #nav-bar{
+  position: fixed;
+  top: 0px;
   height: 100vh;
 
 }
