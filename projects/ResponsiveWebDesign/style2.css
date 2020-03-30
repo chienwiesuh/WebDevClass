@@ -96,7 +96,9 @@ li a:hover {
 #navbar{
   position: fixed;
   top: 0px;
+  left: -980;
   width: 100%;
+
   
   
 }
