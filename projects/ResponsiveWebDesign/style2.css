@@ -99,15 +99,6 @@ li a:hover {
   left: -980;
   width: 100%;
 
-  
-  
-}
-@media (max-width: 800px) {
-   navbar:  {
-    display: flex;
-    justify-content: center;
-    align-items: left;
-   }
 }
 #welcome-section{
   height: 100vh;
