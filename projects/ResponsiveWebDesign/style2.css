@@ -96,7 +96,16 @@ li a:hover {
 #navbar{
   position: fixed;
   top: 0px;
+  width: 100%;
   
+}
+@media (max-width: 600px) {
+  navbar:  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: archivo;
+  }
 }
 #welcome-section{
   height: 100vh;
