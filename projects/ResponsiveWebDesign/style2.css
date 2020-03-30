@@ -96,8 +96,8 @@ li a:hover {
 #navbar{
   position: fixed;
   top: 0px;
-  left: -980;
-  width: 100%;
+  left: 0px;
+  max-width: 20vh;
 
 }
 #welcome-section{
@@ -141,6 +141,10 @@ header{
   color: red;
    font-size: 30px;
    font-weight: bolder;
+}
+.main-section{
+  position: relative;
+   left: 100px;
 }
 
 
