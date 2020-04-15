@@ -172,11 +172,16 @@ header{
   border-radius: 20px;
   color: orangered;
 }
-.condolence-book {
+#condolence-book {
   background-color: rgba(187, 68, 25, 0.691);
   color: black;
   text-align: center;
   margin: 10px 0px 0px 300px;
+}
+#back-top {
+  position: fixed;
+  bottom: 15%;
+  right: 5%;
 }
 
 
