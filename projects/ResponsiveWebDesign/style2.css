@@ -237,9 +237,13 @@ header{
 
 }
 #img1{
-  width: 100%;
+  width: 100vmax;
+  height: 70vmin;
 }
-
+p{
+  width: 90vmin;
+}
+ 
 
 
  /* body {
