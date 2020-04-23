@@ -254,7 +254,16 @@ p{
    border-bottom-style: double;
    border-bottom-width: 30px;
  }
- 
+ #twitter {
+     border-width: 0px 0px 50px 300px;
+ }
+ #whatsApp {
+   border-radius: 10px;
+    border-left: 40px;
+ }
+ #instagram {
+   border-left: 40px;
+ }
  
  
 
