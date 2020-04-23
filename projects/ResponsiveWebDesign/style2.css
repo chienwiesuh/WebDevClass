@@ -37,8 +37,9 @@ h1 {
   div {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
   }
+  
 #AllForms{
     width: 100%;
 }
@@ -48,6 +49,7 @@ img{
  display: block;
  height: auto;
  margin: 0 auto;
+ border-radius: 50px;
 }
 
 #img-div {
@@ -228,21 +230,30 @@ header{
   background-color: black;
    border-radius:30px ;
    display: block;
+   width: 90vw;
+
  }
  .li :hover{
    background-color: rgb(138, 0, 126);
    border-radius: 30px;
  }
-.responsive-img{
 
-}
 #img1{
-  width: 100vmax;
+  width: 95vmax;
   height: 70vmin;
+  border-radius: 50px;
 }
 p{
   width: 90vmin;
 }
+#div2 {
+   color:green;
+   border-bottom: chocolate;
+   border-bottom-style: double;
+   border-bottom-width: 30px;
+ }
+ 
+ 
  
 
 
