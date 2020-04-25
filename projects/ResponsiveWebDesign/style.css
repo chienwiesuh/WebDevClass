@@ -1,9 +1,9 @@
-body{
+/*body{
     background-color: lightblue !important;
-    /*
+    
     border-left: 65px double chocolate; 
     border-right: 65px double chocolate;
-    */
+    
     border: double 50px chocolate;
     
     margin: 0px; 
@@ -40,7 +40,7 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     
-  */  
+    
 
 }
 ul
@@ -87,23 +87,23 @@ ul li
     padding-right: 38px;
 
 }
- #Address{
+ #Address{*/
 /*     float: right;
      position: relative;
      top: -300px; 
      margin-right: 0px;
-  */   border: 3px solid lightblue;
-    /* padding: 10px 20px 10px 10px;*/
+     border: 3px solid lightblue;*/
+    /* padding: 10px 20px 10px 10px
     display: grid;
      align-self: center;
      justify-self: center;
      vertical-align: middle;
      margin-top:100px;
      border-radius: 20px;
- }
-
+ };*/
+;/*
  .row1{
-     display: grid;/*
+     display: grid
      justify-items: center;
      align-content: center ;*/
  }
@@ -122,7 +122,7 @@ ul li
     margin-left: 0px;
     padding: 10px;
  }
- */
+ 
  
  @media (max-width: 61.25em) {
     html {
@@ -133,4 +133,8 @@ ul li
 }
 img{
     width: 600px;
+}
+*/
+body {
+    background-image: url(./soccer-field.jpg);
 }
