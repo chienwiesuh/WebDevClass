@@ -13,7 +13,7 @@
 section{
     background-color: lightgreen;
 }
-*/
+
 #testimonials{
     background-color: magenta;
 }
@@ -23,7 +23,7 @@ p{
 }
 .paragraph1{
     background-color: orangered;
-}
+}*/
 /*
 h1,h2,p{
     text-align: center; color: black;
@@ -101,12 +101,12 @@ ul li
      margin-top:100px;
      border-radius: 20px;
  };*/
-;/*
+/*
  .row1{
      display: grid
      justify-items: center;
-     align-content: center ;*/
- }
+     align-content: center ;
+ }*/
  /*
  #nav{
     display: inline;
@@ -136,5 +136,14 @@ img{
 }
 */
 body {
-    background-image: url(./soccer-field.jpg);
+    background-image: url("./soccer-field.jpg");
+    background-color: darkgray;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 }
+
+ 
