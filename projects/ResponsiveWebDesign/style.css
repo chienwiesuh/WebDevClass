@@ -16,7 +16,7 @@ body {
 
 html {
     overflow: hidden;
-    background: #333 url(bg.png) no-repeat right bottom;
+    background: #333 url(./tree.png) no-repeat right bottom;
     background-attachment: fixed;
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    background: url(bg1.svg) no-repeat left top, url(bg2.svg) no-repeat right top;
+    background: url(./air-plain.jpg) no-repeat left top, url(./air-plain.jpg) no-repeat right top;
     background-color: transparent;
     background-attachment: fixed, fixed;
     -moz-background-size: auto 100%, auto 100%;
