@@ -1,152 +1,119 @@
-/*body{
-    background-color: lightblue !important;
-    
-    border-left: 65px double chocolate; 
-    border-right: 65px double chocolate;
-    
-    border: double 50px chocolate;
-    
-    margin: 0px; 
-    padding: 10px;
-}
-/*
-section{
-    background-color: lightgreen;
-}
-
-#testimonials{
-    background-color: magenta;
-}
-p{
- text-align: left;
- 
-}
-.paragraph1{
-    background-color: orangered;
-}*/
-/*
-h1,h2,p{
-    text-align: center; color: black;
-}
-
-h2{
-
-    background-color: mediumvioletred;
-    
-    
-    display: inline-block;
-    border-left: 15px solid chocolate;
-    border-right: 15px solid chocolate;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    
-    
-
-}
-ul
-{
-    list-style: none;
-    
-}
-
-ul li
-{
-    display: inline-block;
-    width: 150px;
-    background-color: rgb(177, 193, 199);
-    border-bottom-color:black;
-    border-bottom-style: solid;
-    border-left: 15px  chocolate;
-    border-right: 15px  chocolate;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    margin-left: 0px;
-    padding: 10px;
-
-}
-
-#image
- 
-{  
-    border-radius: 100px; 
-    border: dotted 5px rgb(224, 22, 130);
-
-}
-.table{
-    font-family: fantasy;
-     background-color: rgb(21, 170, 230);
-}
-
-#Top{
-    position: fixed;
-    right: 0;
-    bottom: 0%;
-    width: 5em;
-    margin-top: -2.5em;
-    padding-right: 38px;
-
-}
- #Address{*/
-/*     float: right;
-     position: relative;
-     top: -300px; 
-     margin-right: 0px;
-     border: 3px solid lightblue;*/
-    /* padding: 10px 20px 10px 10px
-    display: grid;
-     align-self: center;
-     justify-self: center;
-     vertical-align: middle;
-     margin-top:100px;
-     border-radius: 20px;
- };*/
-/*
- .row1{
-     display: grid
-     justify-items: center;
-     align-content: center ;
- }*/
- /*
- #nav{
-    display: inline;
-    width: 150px;
-    background-color:greenyellow;
-    border-bottom-color:black;
-    border-bottom-style: solid;
-    border-left: 15px  chocolate;
-    border-right: 15px  chocolate;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    margin-left: 0px;
-    padding: 10px;
- }
- 
- 
- @media (max-width: 61.25em) {
-    html {
-      font-size: 58%;
-    }
-  }
-  .responsive-img{
-}
-img{
-    width: 600px;
-}
+/**
+* all and (min-width: 400px)
+*
+* Anything more than 400px.
 */
+
+html,
 body {
-    /*
-    background-image: url("./planets.jpg"), url("./facebookBlogo.png");
-    background-color: darkgray;*/
-    background-image: url("img_tree.gif"), url("paper.gif");
-    background-color: #cccccc;
-    height: 50px;
-    background-position: center;
-    background-repeat: no-repeat, repeat;
-    background-size: cover;
-    position: relative;
-  }
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
- 
+html {
+    overflow: hidden;
+    background: #333 url(bg.png) no-repeat right bottom;
+    background-attachment: fixed;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+body {
+    background: url(bg1.svg) no-repeat left top, url(bg2.svg) no-repeat right top;
+    background-color: transparent;
+    background-attachment: fixed, fixed;
+    -moz-background-size: auto 100%, auto 100%;
+    -o-background-size: auto 100%, auto 100%;
+    -webkit-background-size: auto 100%, auto 100%;
+    background-size: auto 100%, auto 100%;
+}
+
+@media all and (min-height: 800px) {
+    body {
+        background: transparent url(bg2.svg) no-repeat right top;
+        background-attachment: fixed;
+        -moz-background-size: auto 75%;
+        -o-background-size: auto 75%;
+        -webkit-background-size: auto 75%;
+        background-size: auto 75%;
+    }
+}
+
+@media all and (min-height: 1366px) {
+    body {
+        -moz-background-size: auto 50%;
+        -o-background-size: auto 50%;
+        -webkit-background-size: auto 50%;
+        background-size: auto 50%;
+    }
+}
+
+@media all and (max-device-width: 600px) {
+    body {
+        background: transparent url(bg2.svg) no-repeat right -1px;
+        background-attachment: fixed;
+        -moz-background-size: auto 75%;
+        -o-background-size: auto 75%;
+        -webkit-background-size: auto 75%;
+        background-size: auto 75%;
+    }
+}
+
+.page-wrapper {
+    position: relative;
+    margin: 120px auto 200px auto;
+    padding: 0 50px 20px 50px;
+    width: 260px;
+    background: url(layer-middle.svg) repeat-y center top;
+    -moz-background-size: 360px auto;
+    -o-background-size: 360px auto;
+    -webkit-background-size: 360px auto;
+    background-size: 360px auto;
+    -moz-transition: margin 1s ease-out;
+    -o-transition: margin 1s ease-out;
+    -webkit-transition: margin 1s ease-out;
+    transition: margin 1s ease-out;
+}
+
+    .page-wrapper::before,
+    .page-wrapper::after {
+        position: absolute;
+        left: 0;
+        width: 360px;
+        content: '';
+    }
+
+    .page-wrapper::before {
+        top: -600px;
+        height: 600px;
+        background: url(hook3.svg) no-repeat center bottom, url(layer-frame.svg) no-repeat center 567px;
+        -moz-background-size: 300px auto, 360px auto;
+        -o-background-size: 300px auto, 360px auto;
+        -webkit-background-size: 300px auto, 360px auto;
+        background-size: 300px auto, 360px auto;
+    }
+
+    .page-wrapper::after {
+        bottom: -33px;
+        height: 33px;
+        background: transparent url(layer-frame.svg) no-repeat center bottom;
+        -moz-background-size: 360px auto;
+        -o-background-size: 360px auto;
+        -webkit-background-size: 360px auto;
+        background-size: 360px auto;
+    }
+
+/** $intro */
+
+h1 {
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
