@@ -136,11 +136,14 @@ img{
 }
 */
 body {
-    background-image: url("./soccer-field.jpg");
-    background-color: darkgray;
-    height: 100%;
+    /*
+    background-image: url("./planets.jpg"), url("./facebookBlogo.png");
+    background-color: darkgray;*/
+    background-image: url("img_tree.gif"), url("paper.gif");
+    background-color: #cccccc;
+    height: 50px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat, repeat;
     background-size: cover;
     position: relative;
   }
