@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    background: url(./crane.jpg) no-repeat left top, url(./crane.jpg) no-repeat right top;
+    background: url(./nfl-left.webp) no-repeat left top, url(./nfl-right.webp) no-repeat right top;
     background-color: transparent;
     background-attachment: fixed, fixed;
     -moz-background-size: auto 100%, auto 100%;
@@ -70,7 +70,7 @@ body {
     margin: 120px auto 200px auto;
     padding: 0 50px 20px 50px;
     width: 260px;
-    background: url(./paper-plane.webp) no-repeat center top, url(./flying-bird.gif) no-repeat center center, url(./tree.png) no-repeat center bottom;
+    background: url(./paper-plane.webp) no-repeat center top, url(./lightening.gif) repeat center center;
      -moz-background-size: 700px auto;
     -o-background-size: 700px auto;
     -webkit-background-size: 700px auto;
