@@ -70,7 +70,7 @@ body {
     margin: 120px auto 200px auto;
     padding: 0 50px 20px 50px;
     width: 260px;
-    background: url(./middle-tower.jpg) repeat-y center top;
+    background: url() repeat-y center top;
     -moz-background-size: 360px auto;
     -o-background-size: 360px auto;
     -webkit-background-size: 360px auto;
@@ -102,7 +102,7 @@ body {
     .page-wrapper::after {
         bottom: -33px;
         height: 33px;
-        background: transparent url(layer-frame.svg) no-repeat center bottom;
+        background: transparent url(./tree.png) no-repeat center bottom;
         -moz-background-size: 360px auto;
         -o-background-size: 360px auto;
         -webkit-background-size: 360px auto;
@@ -156,7 +156,7 @@ ul, li {
 }
 
 html {
-    background:#f9fbfc;
+    background: black;
 }
 
 body {
