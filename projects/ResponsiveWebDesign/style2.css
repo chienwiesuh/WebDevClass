@@ -45,7 +45,7 @@ h1 {
 #AllForms{
     width: 100%;
 }
-/
+/*
 img{
  max-width: 100%;
  display: block;
@@ -53,6 +53,7 @@ img{
  margin: 0 auto;
  border-radius: 50px;
 }
+
 
 #img-div {
   background: black;
