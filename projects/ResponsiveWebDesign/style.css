@@ -68,9 +68,9 @@ body {
 .page-wrapper {
     position: relative;
     margin: 120px auto 200px auto;
-    padding: 0 50px 20px 50px;
+    padding: 0px 50px 20px 50px;
     width: 260px;
-    background: url(./paper-plane.webp) no-repeat center top, url(./lightening.gif) repeat center center;
+    background: url(./paper-plane.webp) repeat center top, url(./lightening.gif) repeat center center;
      -moz-background-size: 700px auto;
     -o-background-size: 700px auto;
     -webkit-background-size: 700px auto;
