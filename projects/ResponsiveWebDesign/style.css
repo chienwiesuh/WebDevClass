@@ -70,11 +70,11 @@ body {
     margin: 120px auto 200px auto;
     padding: 0 50px 20px 50px;
     width: 260px;
-    background: url(./paper-plane.webp) repeat-y center top;
-    -moz-background-size: 360px auto;
-    -o-background-size: 360px auto;
-    -webkit-background-size: 360px auto;
-    background-size: 360px auto;
+    background: url(./paper-plane.webp) no-repeat center top, url(./flying-bird.gif) no-repeat center center, url(./tree.png) no-repeat center bottom;
+     -moz-background-size: 700px auto;
+    -o-background-size: 700px auto;
+    -webkit-background-size: 700px auto;
+    background-size: 700px auto;
     -moz-transition: margin 1s ease-out;
     -o-transition: margin 1s ease-out;
     -webkit-transition: margin 1s ease-out;
