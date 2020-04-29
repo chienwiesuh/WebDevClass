@@ -1,3 +1,6 @@
+html {
+  background-color: black;
+}
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -122,8 +125,8 @@ li a:hover {
   top: 0px;
   left: 0px;
   max-width: 20vh;
-
 }
+ 
 #welcome-section{
   height: 100vh;
 }
@@ -132,6 +135,7 @@ li a:hover {
   top: 0px;
   height: 100vh;
  }
+ 
  .a {
   display:inline-block;
   color: blue;
@@ -167,6 +171,7 @@ li a:hover {
           padding: 16px;
           text-decoration: none;
            }
+           
 #box-container {
   height: 500px;
   display: flex;
@@ -266,16 +271,35 @@ p{
    border-bottom-width: 30px;
    box-shadow: 0 10px 50px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
+ #socialMedia {
+   position: relative;
+   left: 0px;
+   background-color: black;
  }
  #twitter {
      border-width: 0px 0px 50px 300px;
+     position: relative;
+     left: 600px;
  }
  #whatsApp {
    border-radius: 10px;
     border-left: 40px;
+    position: relative;
+    left: 800px;
  }
  #instagram {
    border-left: 40px;
+   position: relative;
+   left: 150px;
+ }
+ #facebook {
+  border-radius: 10px;
+  position: relative;
+  left: 400px;
+ }
+ .wiki{
+   font-size: 40px;
+   
  }
  
  
