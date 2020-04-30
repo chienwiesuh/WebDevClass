@@ -276,6 +276,10 @@ p{
    left: 0px;
    background-color: black;
  }
+ #socialMedia :hover{
+   background-color: yellow;
+   width: 100px;
+ }
  #twitter {
      border-width: 0px 0px 50px 300px;
      position: relative;
@@ -299,6 +303,7 @@ p{
  }
  .wiki{
    font-size: 40px;
+   float: left;
    
  }
  
