@@ -10,10 +10,10 @@ h1 {
     border-bottom: double;
     border-top: double;
     color: white;
-    background-color: rgba(248, 7, 7, 0.1);
+    background-color: #09A7A1;
     border-radius: 20px;
     text-transform: uppercase;
-
+    
   }
   /*
   body{
@@ -47,7 +47,7 @@ h1 {
   
   div {
     border-radius: 5px;
-    background-color: darkgrey;
+    background-color: rgb(250, 246, 246);
     padding: 20px 20px 0px 20px;
   }
   
@@ -227,13 +227,12 @@ header{
   color: blue;
 }
 .UN {
-  background-color: cadetblue;
-  font-size: 40px;
+   font-size: 40px;
   border-radius: 20px;
-  color: orangered;
+  color: #09A7A1;
 }
 #condolence-book {
-  background-color: rgba(187, 68, 25, 0.691);
+  background-color:  #09A7A1;
   color: black;
   text-align: center;
   margin: 10px 0px 0px 300px;
@@ -274,7 +273,8 @@ p{
  #socialMedia {
    position: relative;
    left: 0px;
-   background-color: black;
+   background-color: #09A7A1;
+ 
  }
  #socialMedia :hover{
    background-color: yellow;
