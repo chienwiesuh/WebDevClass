@@ -10,7 +10,7 @@ h1 {
     border-bottom: double;
     border-top: double;
     color: white;
-    background-color: #09A7A1;
+    background-color: hsl(180, 30%, 55%);
     border-radius: 20px;
     text-transform: uppercase;
     
@@ -273,7 +273,7 @@ p{
  #socialMedia {
    position: relative;
    left: 0px;
-   background-color: #09A7A1;
+   background-color: hsl(180, 30%, 55%);
  
  }
  #socialMedia :hover{
