@@ -47,9 +47,10 @@ h1 {
   
   div {
     border-radius: 5px;
-    background-color: rgb(250, 246, 246);
-    padding: 20px 20px 0px 20px;
+     padding: 20px 20px 0px 20px;
+    background: linear-gradient(35deg,red, yellow, green, blue, black);
   }
+  
   
 #AllForms{
     width: 100%;
@@ -264,7 +265,7 @@ p{
   width: 90vmin;
 }
 #div2 {
-   color:green;
+   color:white;
    border-bottom: #09A7A1;
    border-bottom-style: double;
    border-bottom-width: 30px;
