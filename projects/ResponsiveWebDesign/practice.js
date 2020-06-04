@@ -1,9 +1,8 @@
 let firstName = prompt('What is your first name?');
- let firstName.toUpperCase = '';
- if (firstName === '') {
-     print = 'firstName';
+  if (firstName === 'CHIENWIE') {
+     console.log('firstName');
  } else {
-     print ='Try again';
+     console.log('Try again');
  }
 
- alert(hello);
+ 
